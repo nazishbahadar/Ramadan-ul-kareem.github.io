@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  color: #721d00;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* .container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  position: relative;
+} */
+
+header {
+  opacity: 0;
+  /* scroll-snap-align: start; */
+  display: flex;
+  min-height: 100vh;
+
+  padding: 20px 7rem 0px 0px;
+  background-color: #fae8c0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  align-items: center;
+  /* scroll-snap-align: start; */
+  transition: all 1s ease-out;
+}
+header img {
+  max-width: 90vw;
+  position: absolute;
+  top: 23vh;
+}
+.hadith {
+  /* margin-top: 27rem; */
+  
+  max-width: 77rem;
+  bottom: 20px;
+  padding: 20px;
+  position: absolute;
+  min-width: 5rem;
+  font-size: 4.5vw;
+}
+
+#heading {
+  font-size: 9vw;
+  
+}
+.greetings {
+  /* scroll-snap-align: start; */
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  padding-top: 3rem;
+
+  /* padding-right: 5rem; */
+  min-height: 50vh;
+  font-size: 4.5vw;
+  /* background-position: 7rem -1rem; */
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  background-color: #fae8c0;
+  align-items: center;
+  transition: all 2s ease-out;
+}
+.greetings img {
+  max-height: 10rem;
+}
+.remTime {
+  /* scroll-snap-align: start; */
+  padding: 20px;
+  /* padding-top: 4rem; */
+  display: flex;
+  min-height: 50vh;
+  font-size: 4.5vw;
+  align-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  /* scroll-snap-align: start; */
+  font-size: 4.5;
+  display: flex;
+  min-height: 15rem;
+  padding: 20px;
+  background-color: antiquewhite;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+}
+footer div input {
+  min-width: 3rem;
+  border: 2px solid #efb76d;
+}
+footer div button{
+  background-color: #e8bb3b;
+  border: 2px solid #efb76d;
+  color: white;
+}
+#time{
+  font-size: 8vw;
+}
